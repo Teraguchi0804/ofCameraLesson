@@ -13,10 +13,10 @@ void ofApp::setup(){
     gui.add(objPosY.setup("objPosY", 0, 0, 3000));
     gui.add(objPosX.setup("objPosX", 0, 0, 3000));
     
-
-    gui.add(camPosZ.setup("camPosZ", 0, 0, 3000));
-    gui.add(camPosY.setup("camPosY", 375, 0, 3000));
+    
     gui.add(camPosX.setup("camPosX", 0, 0, 3000));
+    gui.add(camPosY.setup("camPosY", 375, 0, 3000));
+    gui.add(camPosZ.setup("camPosZ", 0, 0, 3000));
     
     
 //    box.set( ofGetWidth()*1.25 );
@@ -56,17 +56,9 @@ void ofApp::draw(){
     
         ofSetHexColor(0xffffff); // 描画色を設定
     
-        ofNoFill(); // 塗り潰し無し(ワイヤーフレーム)
-//        ofSetColor(255, 255, 255);
-    
-//        ofDrawSphere(objPosX, objPosY, objPosZ, circleSize); // 球体の描画
-    
-    
-//    box.setPosition(ofGetWidth()*.5, ofGetHeight()*.25, 0);
-//    box.rotate(spinX, 1.0, 0.0, 0.0);
-//    box.rotate(spinY, 0, 1.0, 0.0);
-        ofDrawBox(objPosZ, objPosY, objPosX, circleSize);
-    
+        box.set(circleSize);
+        box.setPosition(objPosZ, objPosY, objPosX);
+        box.drawWireframe();
     
     camera.end(); //カメラスタート終了
     
