@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxGui.h"
+#include "ofxTween.h"
 
 class ofApp : public ofBaseApp{
 
@@ -37,4 +38,18 @@ class ofApp : public ofBaseApp{
     
         ofVec2f pos; //位置情報を格納するための変数
         float angle;
+        float lookat_x;
+        float lookat_y;
+    
+        float objPosX_new;
+        float objPosY_new;
+        float objPosZ_new;
+    
+        bool isAnime;
+    
+        ofxTween tween;
+        ofxEasingBounce easing_bounce;
+        ofxEasingBack   easing_back;
+        ofxEasingLinear easing_linear;
+        ofxEasingSine   easing_sine;
 };

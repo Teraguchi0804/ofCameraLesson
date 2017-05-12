@@ -15,51 +15,64 @@ void ofApp::setup(){
     
     
     gui.add(camPosX.setup("camPosX", 0, 0, 3000));
-    gui.add(camPosY.setup("camPosY", 375, 0, 3000));
-    gui.add(camPosZ.setup("camPosZ", 0, 0, 3000));
+    gui.add(camPosY.setup("camPosY", 700, 0, 3000));
+    gui.add(camPosZ.setup("camPosZ", 500, 0, 3000));
     
+    objPosX_new = 0;
+    objPosY_new = 0;
+    objPosZ_new = 0;
     
-//    box.set( ofGetWidth()*1.25 );
+    lookat_x = ofGetWidth()/2;
+    lookat_y = ofGetHeight()/2;
+    
+    isAnime = false;
+    
+    //(id, easing : ofxEasingクラスのインスタンスを渡す, type : easeIn, easeOut, easeInOut, 初期値, 終了値, _dutration : 何[ms]かけて変化するか, _delay : 何[ms]後にtween開始するか)
+    tween.setParameters(1,easing_linear, ofxTween::easeIn, 0, 500, 1500, 0);
     
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     
-    if(pos.x > 0){
-       pos.x += 4.0;
-    }else if(pos.x < 50){
-        pos.x -= 4.0;
-    }
-    
-    pos.y += 3.0;
-    
-    
-    
     //カメラ更新系
-    camera.setPosition(camPosX, camPosY, camPosZ);
-    camera.lookAt(ofVec3f(ofGetWidth()/2, ofGetHeight()/2, 0));
+//    camera.setPosition(camPosX, camPosY, camPosZ);
+    camera.setPosition(tween.getTarget(0), camPosY, camPosZ);
+    camera.lookAt(ofVec3f(lookat_x, lookat_y, 0));
     
+//    lookat_x = sin(ofGetElapsedTimef()*0.8)*0.3;
+//    lookat_y = cos(ofGetElapsedTimef()*1.5)*0.3;
     
-//    camera.setPosition(200 * sin(ofGetElapsedTimef()*2), 375, 200 * cos(ofGetElapsedTimef()*2));
+//    camera.lookAt(ofVec3f(objPosZ * lookat_x, objPosY * lookat_y, 0));
     
-    angle += 10;
+    //オブジェクトを円弧運動させる
+//    box.setPosition(200 * sin(ofGetElapsedTimef()*2), 0, 200 * cos(ofGetElapsedTimef()*2));
+    
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
     
+    if(isAnime){
+        tween.update();
+    }
     
+//    tween.update();
     
     camera.begin(); //カメラスタート
-        
+    
+//        ofDrawCircle(tween.getTarget(0), ofGetHeight()/2, 50);
+    
         ofTranslate(ofGetWidth()/2, ofGetHeight()/2); //右手座標系に変換
         ofScale(-1, 1, 1); //右手座標系へ変換
     
         ofSetHexColor(0xffffff); // 描画色を設定
     
         box.set(circleSize);
-        box.setPosition(objPosZ, objPosY, objPosX);
+    
+    
+        box.setPosition(objPosZ_new, objPosY_new, objPosX_new);
+//        box.setPosition(objPosZ, objPosY, objPosX);
         box.drawWireframe();
     
     camera.end(); //カメラスタート終了
@@ -69,7 +82,17 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    
+    if (key == 'a'){
+        if(!isAnime){
+            isAnime = true;
+        }
+    }
+    if(key == 's'){
+        isAnime = false;
+    }
+    if(key == 'd'){
+       
+    }
 }
 
 //--------------------------------------------------------------
