@@ -39,6 +39,8 @@ void ofApp::update(){
     //カメラ更新系
     camera.setPosition(camPosX, camPosY, camPosZ);
     camera.lookAt(ofVec3f(ofGetWidth()/2, ofGetHeight()/2, 0));
+    
+    
 //    camera.setPosition(200 * sin(ofGetElapsedTimef()*2), 375, 200 * cos(ofGetElapsedTimef()*2));
     
     angle += 10;
