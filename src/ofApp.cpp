@@ -16,7 +16,7 @@ void ofApp::setup(){
     
     gui.add(camPosX.setup("camPosX", 0, 0, 3000));
     gui.add(camPosY.setup("camPosY", 700, 0, 3000));
-    gui.add(camPosZ.setup("camPosZ", 500, 0, 3000));
+    gui.add(camPosZ.setup("camPosZ", 2700, 0, 3000));
     
     objPosX_new = 0;
     objPosY_new = 0;
@@ -28,7 +28,7 @@ void ofApp::setup(){
     isAnime = false;
     
     //(id, easing : ofxEasingクラスのインスタンスを渡す, type : easeIn, easeOut, easeInOut, 初期値, 終了値, _dutration : 何[ms]かけて変化するか, _delay : 何[ms]後にtween開始するか)
-    tween.setParameters(1,easing_linear, ofxTween::easeIn, 0, 500, 1500, 0);
+    tween.setParameters(1,easing_linear, ofxTween::easeIn, 2700, 0, 2500, 0);
     
 }
 
@@ -37,13 +37,13 @@ void ofApp::update(){
     
     //カメラ更新系
 //    camera.setPosition(camPosX, camPosY, camPosZ);
-    camera.setPosition(tween.getTarget(0), camPosY, camPosZ);
+    camera.setPosition(camPosX, camPosY, tween.getTarget(0));
     camera.lookAt(ofVec3f(lookat_x, lookat_y, 0));
     
-//    lookat_x = sin(ofGetElapsedTimef()*0.8)*0.3;
-//    lookat_y = cos(ofGetElapsedTimef()*1.5)*0.3;
-    
-//    camera.lookAt(ofVec3f(objPosZ * lookat_x, objPosY * lookat_y, 0));
+//    lookat_x = sin(ofGetElapsedTimef()*0.8)*10;
+//    lookat_y = cos(ofGetElapsedTimef()*2.0)*10;
+//    
+//    camera.lookAt(ofVec3f(lookat_x, lookat_y, 0));
     
     //オブジェクトを円弧運動させる
 //    box.setPosition(200 * sin(ofGetElapsedTimef()*2), 0, 200 * cos(ofGetElapsedTimef()*2));
@@ -57,11 +57,7 @@ void ofApp::draw(){
         tween.update();
     }
     
-//    tween.update();
-    
     camera.begin(); //カメラスタート
-    
-//        ofDrawCircle(tween.getTarget(0), ofGetHeight()/2, 50);
     
         ofTranslate(ofGetWidth()/2, ofGetHeight()/2); //右手座標系に変換
         ofScale(-1, 1, 1); //右手座標系へ変換
@@ -71,8 +67,8 @@ void ofApp::draw(){
         box.set(circleSize);
     
     
-        box.setPosition(objPosZ_new, objPosY_new, objPosX_new);
-//        box.setPosition(objPosZ, objPosY, objPosX);
+//        box.setPosition(objPosZ_new, objPosY_new, objPosX_new);
+        box.setPosition(objPosZ, objPosY, objPosX);
         box.drawWireframe();
     
     camera.end(); //カメラスタート終了
@@ -84,7 +80,11 @@ void ofApp::draw(){
 void ofApp::keyPressed(int key){
     if (key == 'a'){
         if(!isAnime){
-            isAnime = true;
+            isAnime = true; //Tweenアニメーション開始
+//            lookat_x = sin(ofGetElapsedTimef()*0.8)*0.2;
+//            lookat_y = cos(ofGetElapsedTimef()*2.0)*0.2;
+//            
+//            camera.lookAt(ofVec3f(0, lookat_y, lookat_x));
         }
     }
     if(key == 's'){
