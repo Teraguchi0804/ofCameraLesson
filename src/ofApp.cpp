@@ -67,8 +67,8 @@ void ofApp::draw(){
         box.set(circleSize);
     
     
-//        box.setPosition(objPosZ_new, objPosY_new, objPosX_new);
-        box.setPosition(objPosZ, objPosY, objPosX);
+        box.setPosition(objPosZ_new, objPosY_new, objPosX_new);
+//        box.setPosition(objPosZ, objPosY, objPosX);
         box.drawWireframe();
     
     camera.end(); //カメラスタート終了
