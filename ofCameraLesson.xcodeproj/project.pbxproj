@@ -577,6 +577,63 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>185527997F0B73A279912DB2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxStateMachine.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxStateMachine/src/ofxStateMachine.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A3456AE1530D4768D0A80A12</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6F1B6C7968F600335013DEE5</string>
+					<string>185527997F0B73A279912DB2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>4851D11FF22DECA849CB0054</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>A3456AE1530D4768D0A80A12</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxStateMachine</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>6F1B6C7968F600335013DEE5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxState.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxStateMachine/src/ofxState.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>0A1DAC09F322AE313A40706D</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -946,6 +1003,7 @@
 				<key>children</key>
 				<array>
 					<string>480A780D8D0308AE4A368801</string>
+					<string>4851D11FF22DECA849CB0054</string>
 					<string>1F293A20D2B096D59C4F24DD</string>
 				</array>
 				<key>isa</key>
@@ -1102,6 +1160,7 @@
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxStateMachine/src</string>
 						<string>../../../addons/ofxTween/src</string>
 						<string>../../../addons/ofxTween/src/Easings</string>
 					</array>
@@ -1163,6 +1222,7 @@
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxStateMachine/src</string>
 						<string>../../../addons/ofxTween/src</string>
 						<string>../../../addons/ofxTween/src/Easings</string>
 					</array>
@@ -1328,6 +1388,7 @@
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxStateMachine/src</string>
 						<string>../../../addons/ofxTween/src</string>
 						<string>../../../addons/ofxTween/src/Easings</string>
 					</array>
@@ -1379,6 +1440,7 @@
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxStateMachine/src</string>
 						<string>../../../addons/ofxTween/src</string>
 						<string>../../../addons/ofxTween/src/Easings</string>
 					</array>
