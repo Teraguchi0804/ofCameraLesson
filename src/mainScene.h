@@ -6,9 +6,4 @@
 //
 //
 
-#ifndef mainScene_hpp
-#define mainScene_hpp
-
-#include <stdio.h>
-
-#endif /* mainScene_hpp */
+#pragma once
