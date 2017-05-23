@@ -7,31 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E27B38F17BEF76FF522D42 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 855F31F917FFF2933D3AA429 /* lfunc.c */; };
+		0699C1CEAB1C5BB0A5D62A33 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 46B044906DD09B9F75E26B56 /* loslib.c */; };
+		08005D62107F95B9E29F6258 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B6EDE2EBF72F0F1596B35EA /* ldblib.c */; };
+		0FD2865C5D8A0BFE69E95547 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = B19774FE66A7F796C080D28D /* lobject.c */; };
+		10497A206B4FE11B14A81B2C /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A8CF1C4E899A835167E0FCE4 /* lauxlib.c */; };
+		143D5E9F06D51CC05B7F784B /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = C9973CED0CB809047C3628A3 /* lstrlib.c */; };
 		152EAECABD008D84AF7F27F8 /* ofxEasingLinear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CFDCEA412E8BCDACA9B26 /* ofxEasingLinear.cpp */; };
 		168C43F69AF6A8042EA0B13F /* easing_terms_of_use.html in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEF50558BBDBEB5260FC35 /* easing_terms_of_use.html */; };
+		16A28D418065E3E07859F565 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF0C4D7597AE154B9634B6 /* lctype.c */; };
 		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
 		27765D1BFF26BD9A6186915F /* ofxEasingCirc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4973CEF438C8931B5E03E0A /* ofxEasingCirc.cpp */; };
+		2991D66A82B2AF8F0DF2BBFD /* ofxLuaFileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCBA18FA85C5A2A68DC1E5 /* ofxLuaFileWriter.cpp */; };
+		2A1E8DDFAC0050E914B898E0 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = A7CE3D8FEA79E0D9B03143D0 /* llex.c */; };
+		2B43CA2C2B2102B98853E585 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 296C407E228207FA81337437 /* lbaselib.c */; };
+		2C60409D2AA1F54C424C29F2 /* ofxEasingFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 412CDECEACBF8C12A7073DB7 /* ofxEasingFunc.cpp */; };
+		2CEA5A91F769BB162C8D046A /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E553E00F5C6AFAC6D09C7C /* lopcodes.c */; };
+		2DA82460994281E4C819ED5D /* ofxLuaBindings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C084CFDF45ED7B0C0F213551 /* ofxLuaBindings.cpp */; };
 		32FC7731C1EF7B87E491C93D /* ofxTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 497F252390399FCF843297DA /* ofxTween.cpp */; };
+		35FC7D61E8DCE5721FF3F371 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A0D8CCFAFFFCF4F378ED /* lundump.c */; };
+		39BD2D99826301E9CE4711A3 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = 327879B347519E1E5636BC19 /* ltable.c */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
+		4B6798D99BBE9A4429BCD053 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E4CF6DEEF8657074E7B2C9C4 /* lapi.c */; };
+		50910FB3A58F53BC16FAE224 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = A0F13E8B195521D39BD43E29 /* lstate.c */; };
 		59EEACB88F062457FF86492C /* ofxEasingExpo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F26D4EDFF0E9EA8CF68B694 /* ofxEasingExpo.cpp */; };
 		5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88333E71C9457E441C33474 /* ofxButton.cpp */; };
 		5E0DBDE5736DEB3A5886B3F1 /* ofxEasingBack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7660DD2BE873BAD12E3A496D /* ofxEasingBack.cpp */; };
+		64512EE0A57FFC207D21B968 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 7379EB5B053F901886CD097E /* lzio.c */; };
+		64D548E14B9CF3F3222F6CEE /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 58B254302DBE9D119FC5D0AA /* lcorolib.c */; };
 		6D7B53ED56654ABBF2FF13B1 /* ofxEasingQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E1DB01BD6701283FC87946 /* ofxEasingQuad.cpp */; };
 		6E062274743F6716A9AD4395 /* ofxEasingElastic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A26C4A6254126C99F0A65354 /* ofxEasingElastic.cpp */; };
+		792D9903388D026B87DE63D5 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = BE9397B700B753A501D673CB /* ldo.c */; };
 		7E769097DE6561633305B24C /* ofxEasingQuint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB8A50F8A34037BCD5DC10D0 /* ofxEasingQuint.cpp */; };
+		803F5255E31297F5E51DAFED /* ofxFileWatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01583B1C45263611229CC257 /* ofxFileWatcher.cpp */; };
+		831B7F0AB029001B586D0B93 /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B88BEBF4CF97D602BB6C676 /* ltm.c */; };
 		837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15F2C6477A769C03A56D1401 /* ofxSlider.cpp */; };
 		856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9604B925D32EE39065747725 /* ofxBaseGui.cpp */; };
 		85A41526FDFA1A8CDAEE81F7 /* ofxEasingQuart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 882494DB324414B7B31DB11C /* ofxEasingQuart.cpp */; };
+		8A939BF918ABF4857690F42F /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A23F358E3C1201C0B842973 /* loadlib.c */; };
+		8C63119EB0D1E9E31D9B226C /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = F94DED1B7C14571FD3F16BA5 /* lmem.c */; };
+		9008DBA5C88FEF0B162B7230 /* lutf8lib.c in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCD760A1729866FD5C977 /* lutf8lib.c */; };
 		9266028E1AECBB027ABF64D8 /* ofxEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26E160699149D8AF609734A1 /* ofxEasing.cpp */; };
-		A8CB84241ED2D34F004B69D2 /* mainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8CB84221ED2D34F004B69D2 /* mainScene.cpp */; };
+		A500B9161420CD9E9F7DDB39 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 696E205ED12F8177BB1469B9 /* lgc.c */; };
+		A91B393E99FC3079CD08B174 /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 09A03334BDC8D640D4982303 /* ldump.c */; };
+		A9F56084DF3D0538D788C159 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 996F2C0B6706D305BBCB9B4E /* lvm.c */; };
+		AAA4E1BE9B2164E1642CC5C6 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC78DA55660F5B8754D12 /* linit.c */; };
+		ADEF9A4797FFD7EE6BE4E1D7 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F161E29246E373138B1BB10 /* lbitlib.c */; };
 		B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */; };
+		B31C96361B8DC4B6AAF564B4 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A1FE5CBE689DE190D0C14 /* lstring.c */; };
 		B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */; };
+		CB6DAEA8EE562CFFA503375D /* ofxLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC94311C7CEBBF025EAB0087 /* ofxLua.cpp */; };
+		CBAA7E526D0702B85FE6C904 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BED8D38C0082F7845E59C06 /* ltablib.c */; };
+		CD9DCEF4F64E0D6EB0CB7F7D /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = EB6096A02E17D32D1323C466 /* ldebug.c */; };
+		CEAB7FF44CA3A33DB36A49C5 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = CCF2E41663BA9C6F740A7E33 /* lcode.c */; };
+		D29276FE4E80D1ADA21FA5CC /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B3F5DCF03CDA3ED3EE13E /* liolib.c */; };
+		DAF466631BFD7B4CFB90529F /* mainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BB2BE09EBAA250FCFD7D0 /* mainScene.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 		E816D7D242D315FB53E23F54 /* ofxEasingCubic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34AA5DBAF88C8B757B46D40D /* ofxEasingCubic.cpp */; };
 		EAD3CE0789481F975F351F39 /* ofxEasingBounce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B7E2794A10F926DF630529 /* ofxEasingBounce.cpp */; };
+		EFFEE86E935F20BE80B1076C /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 4462FFD933C0AB104324853D /* lmathlib.c */; };
 		F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */; };
+		F7513467F92F7AF3DAD30251 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = AEA75D1B35E00A9F279E2916 /* lparser.c */; };
 		FE278F5F783581237AE8ECB2 /* ofxEasingSine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FABA58C3070AF2F33E8C257 /* ofxEasingSine.cpp */; };
 /* End PBXBuildFile section */
 
@@ -66,61 +104,130 @@
 
 /* Begin PBXFileReference section */
 		00B7E2794A10F926DF630529 /* ofxEasingBounce.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingBounce.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingBounce.cpp; sourceTree = SOURCE_ROOT; };
+		01583B1C45263611229CC257 /* ofxFileWatcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxFileWatcher.cpp; path = ../../../addons/ofxFileWatcher/src/ofxFileWatcher.cpp; sourceTree = SOURCE_ROOT; };
+		09A03334BDC8D640D4982303 /* ldump.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = ldump.c; path = ../../../addons/ofxLua/libs/lua/ldump.c; sourceTree = SOURCE_ROOT; };
 		0A1DAC09F322AE313A40706D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
 		0F26D4EDFF0E9EA8CF68B694 /* ofxEasingExpo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingExpo.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingExpo.cpp; sourceTree = SOURCE_ROOT; };
+		0FA394AAC7CF14ED67721B0D /* ofxFileWatcher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFileWatcher.h; path = ../../../addons/ofxFileWatcher/src/ofxFileWatcher.h; sourceTree = SOURCE_ROOT; };
 		15F2C6477A769C03A56D1401 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
+		17E553E00F5C6AFAC6D09C7C /* lopcodes.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lopcodes.c; path = ../../../addons/ofxLua/libs/lua/lopcodes.c; sourceTree = SOURCE_ROOT; };
 		17E65988300FBD9AAA2CD0CA /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
 		185527997F0B73A279912DB2 /* ofxStateMachine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxStateMachine.h; path = ../../../addons/ofxStateMachine/src/ofxStateMachine.h; sourceTree = SOURCE_ROOT; };
 		1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
 		26E160699149D8AF609734A1 /* ofxEasing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasing.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasing.cpp; sourceTree = SOURCE_ROOT; };
 		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
+		296C407E228207FA81337437 /* lbaselib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lbaselib.c; path = ../../../addons/ofxLua/libs/lua/lbaselib.c; sourceTree = SOURCE_ROOT; };
+		2BED8D38C0082F7845E59C06 /* ltablib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = ltablib.c; path = ../../../addons/ofxLua/libs/lua/ltablib.c; sourceTree = SOURCE_ROOT; };
+		2CDDC78DA55660F5B8754D12 /* linit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = linit.c; path = ../../../addons/ofxLua/libs/lua/linit.c; sourceTree = SOURCE_ROOT; };
+		2EFEE8036B389C3F0A501982 /* ltm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ltm.h; path = ../../../addons/ofxLua/libs/lua/ltm.h; sourceTree = SOURCE_ROOT; };
+		2F4C4D2EBF36C1728B54C40D /* lopcodes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lopcodes.h; path = ../../../addons/ofxLua/libs/lua/lopcodes.h; sourceTree = SOURCE_ROOT; };
+		31603EE2E9AB06CCA2C675AD /* lstate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lstate.h; path = ../../../addons/ofxLua/libs/lua/lstate.h; sourceTree = SOURCE_ROOT; };
+		327879B347519E1E5636BC19 /* ltable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = ltable.c; path = ../../../addons/ofxLua/libs/lua/ltable.c; sourceTree = SOURCE_ROOT; };
 		34AA5DBAF88C8B757B46D40D /* ofxEasingCubic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingCubic.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingCubic.cpp; sourceTree = SOURCE_ROOT; };
 		3DC6648A0468FBECB5E45B57 /* ofxTween.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTween.h; path = ../../../addons/ofxTween/src/ofxTween.h; sourceTree = SOURCE_ROOT; };
+		3F4A1FE5CBE689DE190D0C14 /* lstring.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lstring.c; path = ../../../addons/ofxLua/libs/lua/lstring.c; sourceTree = SOURCE_ROOT; };
+		412CDECEACBF8C12A7073DB7 /* ofxEasingFunc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingFunc.cpp; path = ../../../addons/ofxEasingFunc/src/ofxEasingFunc.cpp; sourceTree = SOURCE_ROOT; };
+		42E0E01965D0F7A39E77BD6A /* ldo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ldo.h; path = ../../../addons/ofxLua/libs/lua/ldo.h; sourceTree = SOURCE_ROOT; };
+		4462FFD933C0AB104324853D /* lmathlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lmathlib.c; path = ../../../addons/ofxLua/libs/lua/lmathlib.c; sourceTree = SOURCE_ROOT; };
+		46B044906DD09B9F75E26B56 /* loslib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = loslib.c; path = ../../../addons/ofxLua/libs/lua/loslib.c; sourceTree = SOURCE_ROOT; };
 		497F252390399FCF843297DA /* ofxTween.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTween.cpp; path = ../../../addons/ofxTween/src/ofxTween.cpp; sourceTree = SOURCE_ROOT; };
 		4C0E055E4176057631087AA3 /* ofxEasingQuart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingQuart.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingQuart.h; sourceTree = SOURCE_ROOT; };
+		4F161E29246E373138B1BB10 /* lbitlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lbitlib.c; path = ../../../addons/ofxLua/libs/lua/lbitlib.c; sourceTree = SOURCE_ROOT; };
 		52AFA1F08C420992CAAAE648 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		54483CE9DFF4159E16DCCCC5 /* lmem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lmem.h; path = ../../../addons/ofxLua/libs/lua/lmem.h; sourceTree = SOURCE_ROOT; };
+		58B254302DBE9D119FC5D0AA /* lcorolib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lcorolib.c; path = ../../../addons/ofxLua/libs/lua/lcorolib.c; sourceTree = SOURCE_ROOT; };
+		59D51C03B14455816C5F28B7 /* lprefix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lprefix.h; path = ../../../addons/ofxLua/libs/lua/lprefix.h; sourceTree = SOURCE_ROOT; };
+		5DBE6BB688AFA04A3BB83F8E /* lfunc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lfunc.h; path = ../../../addons/ofxLua/libs/lua/lfunc.h; sourceTree = SOURCE_ROOT; };
 		5E9E6513BEC36148928518B7 /* ofxEasingQuint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingQuint.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingQuint.h; sourceTree = SOURCE_ROOT; };
 		5FABA58C3070AF2F33E8C257 /* ofxEasingSine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingSine.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingSine.cpp; sourceTree = SOURCE_ROOT; };
+		654D9D3FD3248EFA16D6DDFB /* ofxLua.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLua.h; path = ../../../addons/ofxLua/src/ofxLua.h; sourceTree = SOURCE_ROOT; };
+		6678200CF3C7F037DAD79150 /* llimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = llimits.h; path = ../../../addons/ofxLua/libs/lua/llimits.h; sourceTree = SOURCE_ROOT; };
+		696E205ED12F8177BB1469B9 /* lgc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lgc.c; path = ../../../addons/ofxLua/libs/lua/lgc.c; sourceTree = SOURCE_ROOT; };
+		6A8B3F5DCF03CDA3ED3EE13E /* liolib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = liolib.c; path = ../../../addons/ofxLua/libs/lua/liolib.c; sourceTree = SOURCE_ROOT; };
+		6B6EDE2EBF72F0F1596B35EA /* ldblib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = ldblib.c; path = ../../../addons/ofxLua/libs/lua/ldblib.c; sourceTree = SOURCE_ROOT; };
 		6F1B6C7968F600335013DEE5 /* ofxState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxState.h; path = ../../../addons/ofxStateMachine/src/ofxState.h; sourceTree = SOURCE_ROOT; };
+		6F7BB2BE09EBAA250FCFD7D0 /* mainScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mainScene.cpp; path = src/mainScene.cpp; sourceTree = SOURCE_ROOT; };
+		6FAF0C4D7597AE154B9634B6 /* lctype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lctype.c; path = ../../../addons/ofxLua/libs/lua/lctype.c; sourceTree = SOURCE_ROOT; };
+		7379EB5B053F901886CD097E /* lzio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lzio.c; path = ../../../addons/ofxLua/libs/lua/lzio.c; sourceTree = SOURCE_ROOT; };
 		7599804C6260EC1CD8D3567D /* ofxEasingLinear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingLinear.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingLinear.h; sourceTree = SOURCE_ROOT; };
 		7660DD2BE873BAD12E3A496D /* ofxEasingBack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingBack.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingBack.cpp; sourceTree = SOURCE_ROOT; };
 		767479279EBAC134D46E74E7 /* ofxEasingExpo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingExpo.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingExpo.h; sourceTree = SOURCE_ROOT; };
 		78D67A00EB899FAC09430597 /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
 		7912619B786F0238D22ED5F3 /* ofxEasingBack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingBack.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingBack.h; sourceTree = SOURCE_ROOT; };
 		802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSliderGroup.cpp; path = ../../../addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
+		81FF9CEA902BD4C4BD8E791B /* lundump.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lundump.h; path = ../../../addons/ofxLua/libs/lua/lundump.h; sourceTree = SOURCE_ROOT; };
+		855F31F917FFF2933D3AA429 /* lfunc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lfunc.c; path = ../../../addons/ofxLua/libs/lua/lfunc.c; sourceTree = SOURCE_ROOT; };
 		87F26B4B24CBD428AD9EEBAA /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../../addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
 		882494DB324414B7B31DB11C /* ofxEasingQuart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingQuart.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingQuart.cpp; sourceTree = SOURCE_ROOT; };
+		888E021963530D71DC2E2024 /* llex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = llex.h; path = ../../../addons/ofxLua/libs/lua/llex.h; sourceTree = SOURCE_ROOT; };
 		89449E3044D456F7DE7BEA14 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../../addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
+		8D8510C3345C50496CF2D634 /* lcode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lcode.h; path = ../../../addons/ofxLua/libs/lua/lcode.h; sourceTree = SOURCE_ROOT; };
 		907C5B5E104864A2D3A25745 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../../addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
+		95EAE53B9CBE6A7F86FDD273 /* lvm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lvm.h; path = ../../../addons/ofxLua/libs/lua/lvm.h; sourceTree = SOURCE_ROOT; };
 		9604B925D32EE39065747725 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../../addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
+		996F2C0B6706D305BBCB9B4E /* lvm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lvm.c; path = ../../../addons/ofxLua/libs/lua/lvm.c; sourceTree = SOURCE_ROOT; };
+		9A23F358E3C1201C0B842973 /* loadlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = loadlib.c; path = ../../../addons/ofxLua/libs/lua/loadlib.c; sourceTree = SOURCE_ROOT; };
 		9A4CFDCEA412E8BCDACA9B26 /* ofxEasingLinear.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingLinear.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingLinear.cpp; sourceTree = SOURCE_ROOT; };
 		9AAEF50558BBDBEB5260FC35 /* easing_terms_of_use.html */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = easing_terms_of_use.html; path = ../../../addons/ofxTween/src/Easings/easing_terms_of_use.html; sourceTree = SOURCE_ROOT; };
+		9B88BEBF4CF97D602BB6C676 /* ltm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = ltm.c; path = ../../../addons/ofxLua/libs/lua/ltm.c; sourceTree = SOURCE_ROOT; };
+		9BCCBA18FA85C5A2A68DC1E5 /* ofxLuaFileWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLuaFileWriter.cpp; path = ../../../addons/ofxLua/src/ofxLuaFileWriter.cpp; sourceTree = SOURCE_ROOT; };
+		A0F13E8B195521D39BD43E29 /* lstate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lstate.c; path = ../../../addons/ofxLua/libs/lua/lstate.c; sourceTree = SOURCE_ROOT; };
 		A26C4A6254126C99F0A65354 /* ofxEasingElastic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingElastic.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingElastic.cpp; sourceTree = SOURCE_ROOT; };
 		A4973CEF438C8931B5E03E0A /* ofxEasingCirc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingCirc.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingCirc.cpp; sourceTree = SOURCE_ROOT; };
-		A8CB84221ED2D34F004B69D2 /* mainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainScene.cpp; sourceTree = "<group>"; };
-		A8CB84231ED2D34F004B69D2 /* mainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainScene.h; sourceTree = "<group>"; };
+		A7CE3D8FEA79E0D9B03143D0 /* llex.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = llex.c; path = ../../../addons/ofxLua/libs/lua/llex.c; sourceTree = SOURCE_ROOT; };
+		A8CF1C4E899A835167E0FCE4 /* lauxlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lauxlib.c; path = ../../../addons/ofxLua/libs/lua/lauxlib.c; sourceTree = SOURCE_ROOT; };
 		A9FE46C20E767B29C5997AD3 /* ofxEasingBounce.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingBounce.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingBounce.h; sourceTree = SOURCE_ROOT; };
+		AEA75D1B35E00A9F279E2916 /* lparser.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lparser.c; path = ../../../addons/ofxLua/libs/lua/lparser.c; sourceTree = SOURCE_ROOT; };
 		AF17EB492DB2858A0EBD94CD /* ofxEasingCirc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingCirc.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingCirc.h; sourceTree = SOURCE_ROOT; };
 		B07C508E7717E6C892502ADF /* ofxEasingQuad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingQuad.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingQuad.h; sourceTree = SOURCE_ROOT; };
+		B0E84507DD6046CE9C15BD2D /* luaconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = luaconf.h; path = ../../../addons/ofxLua/libs/lua/luaconf.h; sourceTree = SOURCE_ROOT; };
+		B19774FE66A7F796C080D28D /* lobject.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lobject.c; path = ../../../addons/ofxLua/libs/lua/lobject.c; sourceTree = SOURCE_ROOT; };
+		B1992EDEAA163CA002BB8169 /* ltable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ltable.h; path = ../../../addons/ofxLua/libs/lua/ltable.h; sourceTree = SOURCE_ROOT; };
+		B2D9A0D8CCFAFFFCF4F378ED /* lundump.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lundump.c; path = ../../../addons/ofxLua/libs/lua/lundump.c; sourceTree = SOURCE_ROOT; };
 		B788152C3FE538E700D063C7 /* ofxEasingCubic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingCubic.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingCubic.h; sourceTree = SOURCE_ROOT; };
+		B7F744168F5F9F9D73E0C6FC /* lobject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lobject.h; path = ../../../addons/ofxLua/libs/lua/lobject.h; sourceTree = SOURCE_ROOT; };
 		B87C60311EC1FE841C1ECD89 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
 		B9E1DB01BD6701283FC87946 /* ofxEasingQuad.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingQuad.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingQuad.cpp; sourceTree = SOURCE_ROOT; };
+		BB36A537252B2CD5BCC7614D /* lauxlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lauxlib.h; path = ../../../addons/ofxLua/libs/lua/lauxlib.h; sourceTree = SOURCE_ROOT; };
+		BE9397B700B753A501D673CB /* ldo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = ldo.c; path = ../../../addons/ofxLua/libs/lua/ldo.c; sourceTree = SOURCE_ROOT; };
+		C084CFDF45ED7B0C0F213551 /* ofxLuaBindings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLuaBindings.cpp; path = ../../../addons/ofxLua/src/bindings/desktop/ofxLuaBindings.cpp; sourceTree = SOURCE_ROOT; };
 		C70D8946940288799E82131E /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
 		C88333E71C9457E441C33474 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
+		C8EB54F9F22E41995519F404 /* mainScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mainScene.h; path = src/mainScene.h; sourceTree = SOURCE_ROOT; };
+		C9973CED0CB809047C3628A3 /* lstrlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lstrlib.c; path = ../../../addons/ofxLua/libs/lua/lstrlib.c; sourceTree = SOURCE_ROOT; };
+		CCF2E41663BA9C6F740A7E33 /* lcode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lcode.c; path = ../../../addons/ofxLua/libs/lua/lcode.c; sourceTree = SOURCE_ROOT; };
+		CF6753649DA389DFDE3EFB97 /* lctype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lctype.h; path = ../../../addons/ofxLua/libs/lua/lctype.h; sourceTree = SOURCE_ROOT; };
+		CF8CCD760A1729866FD5C977 /* lutf8lib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lutf8lib.c; path = ../../../addons/ofxLua/libs/lua/lutf8lib.c; sourceTree = SOURCE_ROOT; };
+		D1E255E3725B9EF7F3B976AF /* ofxLuaBindings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLuaBindings.h; path = ../../../addons/ofxLua/src/bindings/ofxLuaBindings.h; sourceTree = SOURCE_ROOT; };
+		DC94311C7CEBBF025EAB0087 /* ofxLua.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLua.cpp; path = ../../../addons/ofxLua/src/ofxLua.cpp; sourceTree = SOURCE_ROOT; };
 		DD476420FBC881796F865BB5 /* ofxEasingSine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingSine.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingSine.h; sourceTree = SOURCE_ROOT; };
+		DEF2A2A17839B2B6C96CF874 /* lgc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lgc.h; path = ../../../addons/ofxLua/libs/lua/lgc.h; sourceTree = SOURCE_ROOT; };
 		E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPanel.cpp; path = ../../../addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
+		E215BB56539BB0039F1482CB /* lua.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lua.h; path = ../../../addons/ofxLua/libs/lua/lua.h; sourceTree = SOURCE_ROOT; };
+		E3C20188C8E4EBABCE962392 /* lzio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lzio.h; path = ../../../addons/ofxLua/libs/lua/lzio.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* ofCameraLessonDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofCameraLessonDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; lineEnding = 0; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4CF6DEEF8657074E7B2C9C4 /* lapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lapi.c; path = ../../../addons/ofxLua/libs/lua/lapi.c; sourceTree = SOURCE_ROOT; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E6197C6C6F1FCEB4F3565E7A /* ofxLuaFileWriter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLuaFileWriter.h; path = ../../../addons/ofxLua/src/ofxLuaFileWriter.h; sourceTree = SOURCE_ROOT; };
+		E6C926CA7EF6E1AC4DDA5E54 /* lstring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lstring.h; path = ../../../addons/ofxLua/libs/lua/lstring.h; sourceTree = SOURCE_ROOT; };
+		E8DA71F2CFD1E67DCD189E86 /* ofxEasingFunc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingFunc.h; path = ../../../addons/ofxEasingFunc/src/ofxEasingFunc.h; sourceTree = SOURCE_ROOT; };
+		EB6096A02E17D32D1323C466 /* ldebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = ldebug.c; path = ../../../addons/ofxLua/libs/lua/ldebug.c; sourceTree = SOURCE_ROOT; };
 		ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
+		ED3A1DEC0EB31A0D7F84F4F5 /* ldebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ldebug.h; path = ../../../addons/ofxLua/libs/lua/ldebug.h; sourceTree = SOURCE_ROOT; };
+		ED864D70679893DE968E516D /* lualib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lualib.h; path = ../../../addons/ofxLua/libs/lua/lualib.h; sourceTree = SOURCE_ROOT; };
+		EE11492227233B7B2892C6AF /* lparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lparser.h; path = ../../../addons/ofxLua/libs/lua/lparser.h; sourceTree = SOURCE_ROOT; };
+		F94DED1B7C14571FD3F16BA5 /* lmem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = lmem.c; path = ../../../addons/ofxLua/libs/lua/lmem.c; sourceTree = SOURCE_ROOT; };
 		FB8A50F8A34037BCD5DC10D0 /* ofxEasingQuint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingQuint.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingQuint.cpp; sourceTree = SOURCE_ROOT; };
+		FBA650A739F745165AC61CB5 /* lua.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lua.hpp; path = ../../../addons/ofxLua/libs/lua/lua.hpp; sourceTree = SOURCE_ROOT; };
 		FC9B34C5CB5B0ACAFF02ED20 /* ofxEasing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasing.h; path = ../../../addons/ofxTween/src/Easings/ofxEasing.h; sourceTree = SOURCE_ROOT; };
 		FE4DB52D544B8C725E615958 /* ofxEasingElastic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingElastic.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingElastic.h; sourceTree = SOURCE_ROOT; };
+		FFDAFB446279146D11303F8C /* lapi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lapi.h; path = ../../../addons/ofxLua/libs/lua/lapi.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,12 +242,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EA4C5EAFF080E1443C5D23 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				633A6FB9848F6EBEF40773F4 /* desktop */,
+				D1E255E3725B9EF7F3B976AF /* ofxLuaBindings.h */,
+			);
+			name = bindings;
+			sourceTree = "<group>";
+		};
+		13ED62F0CD3B889287749715 /* ofxLua */ = {
+			isa = PBXGroup;
+			children = (
+				F1F6E70C786CB409937E7F60 /* src */,
+				F1A240160281F5626FEEF82B /* libs */,
+			);
+			name = ofxLua;
+			sourceTree = "<group>";
+		};
 		1F293A20D2B096D59C4F24DD /* ofxTween */ = {
 			isa = PBXGroup;
 			children = (
 				81B62DB6C371DAD643503FEF /* src */,
 			);
 			name = ofxTween;
+			sourceTree = "<group>";
+		};
+		39390FCFCB868C49F0C78CB5 /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				E4CF6DEEF8657074E7B2C9C4 /* lapi.c */,
+				FFDAFB446279146D11303F8C /* lapi.h */,
+				A8CF1C4E899A835167E0FCE4 /* lauxlib.c */,
+				BB36A537252B2CD5BCC7614D /* lauxlib.h */,
+				296C407E228207FA81337437 /* lbaselib.c */,
+				4F161E29246E373138B1BB10 /* lbitlib.c */,
+				CCF2E41663BA9C6F740A7E33 /* lcode.c */,
+				8D8510C3345C50496CF2D634 /* lcode.h */,
+				58B254302DBE9D119FC5D0AA /* lcorolib.c */,
+				6FAF0C4D7597AE154B9634B6 /* lctype.c */,
+				CF6753649DA389DFDE3EFB97 /* lctype.h */,
+				6B6EDE2EBF72F0F1596B35EA /* ldblib.c */,
+				EB6096A02E17D32D1323C466 /* ldebug.c */,
+				ED3A1DEC0EB31A0D7F84F4F5 /* ldebug.h */,
+				BE9397B700B753A501D673CB /* ldo.c */,
+				42E0E01965D0F7A39E77BD6A /* ldo.h */,
+				09A03334BDC8D640D4982303 /* ldump.c */,
+				855F31F917FFF2933D3AA429 /* lfunc.c */,
+				5DBE6BB688AFA04A3BB83F8E /* lfunc.h */,
+				696E205ED12F8177BB1469B9 /* lgc.c */,
+				DEF2A2A17839B2B6C96CF874 /* lgc.h */,
+				2CDDC78DA55660F5B8754D12 /* linit.c */,
+				6A8B3F5DCF03CDA3ED3EE13E /* liolib.c */,
+				A7CE3D8FEA79E0D9B03143D0 /* llex.c */,
+				888E021963530D71DC2E2024 /* llex.h */,
+				6678200CF3C7F037DAD79150 /* llimits.h */,
+				4462FFD933C0AB104324853D /* lmathlib.c */,
+				F94DED1B7C14571FD3F16BA5 /* lmem.c */,
+				54483CE9DFF4159E16DCCCC5 /* lmem.h */,
+				9A23F358E3C1201C0B842973 /* loadlib.c */,
+				B19774FE66A7F796C080D28D /* lobject.c */,
+				B7F744168F5F9F9D73E0C6FC /* lobject.h */,
+				17E553E00F5C6AFAC6D09C7C /* lopcodes.c */,
+				2F4C4D2EBF36C1728B54C40D /* lopcodes.h */,
+				46B044906DD09B9F75E26B56 /* loslib.c */,
+				AEA75D1B35E00A9F279E2916 /* lparser.c */,
+				EE11492227233B7B2892C6AF /* lparser.h */,
+				59D51C03B14455816C5F28B7 /* lprefix.h */,
+				A0F13E8B195521D39BD43E29 /* lstate.c */,
+				31603EE2E9AB06CCA2C675AD /* lstate.h */,
+				3F4A1FE5CBE689DE190D0C14 /* lstring.c */,
+				E6C926CA7EF6E1AC4DDA5E54 /* lstring.h */,
+				C9973CED0CB809047C3628A3 /* lstrlib.c */,
+				327879B347519E1E5636BC19 /* ltable.c */,
+				B1992EDEAA163CA002BB8169 /* ltable.h */,
+				2BED8D38C0082F7845E59C06 /* ltablib.c */,
+				9B88BEBF4CF97D602BB6C676 /* ltm.c */,
+				2EFEE8036B389C3F0A501982 /* ltm.h */,
+				E215BB56539BB0039F1482CB /* lua.h */,
+				FBA650A739F745165AC61CB5 /* lua.hpp */,
+				B0E84507DD6046CE9C15BD2D /* luaconf.h */,
+				ED864D70679893DE968E516D /* lualib.h */,
+				B2D9A0D8CCFAFFFCF4F378ED /* lundump.c */,
+				81FF9CEA902BD4C4BD8E791B /* lundump.h */,
+				CF8CCD760A1729866FD5C977 /* lutf8lib.c */,
+				996F2C0B6706D305BBCB9B4E /* lvm.c */,
+				95EAE53B9CBE6A7F86FDD273 /* lvm.h */,
+				7379EB5B053F901886CD097E /* lzio.c */,
+				E3C20188C8E4EBABCE962392 /* lzio.h */,
+			);
+			name = lua;
+			sourceTree = "<group>";
+		};
+		3DE6FAFD038E30AF72F536AA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				412CDECEACBF8C12A7073DB7 /* ofxEasingFunc.cpp */,
+				E8DA71F2CFD1E67DCD189E86 /* ofxEasingFunc.h */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 		480A780D8D0308AE4A368801 /* ofxGui */ = {
@@ -159,11 +359,27 @@
 			name = ofxStateMachine;
 			sourceTree = "<group>";
 		};
+		633A6FB9848F6EBEF40773F4 /* desktop */ = {
+			isa = PBXGroup;
+			children = (
+				C084CFDF45ED7B0C0F213551 /* ofxLuaBindings.cpp */,
+			);
+			name = desktop;
+			sourceTree = "<group>";
+		};
 		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = local_addons;
+			sourceTree = "<group>";
+		};
+		6C632E85C112165FF23ED1C5 /* ofxEasingFunc */ = {
+			isa = PBXGroup;
+			children = (
+				3DE6FAFD038E30AF72F536AA /* src */,
+			);
+			name = ofxEasingFunc;
 			sourceTree = "<group>";
 		};
 		81B62DB6C371DAD643503FEF /* src */ = {
@@ -244,11 +460,31 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				6C632E85C112165FF23ED1C5 /* ofxEasingFunc */,
+				C3F3DBAACD1D6E746A59003B /* ofxFileWatcher */,
 				480A780D8D0308AE4A368801 /* ofxGui */,
+				13ED62F0CD3B889287749715 /* ofxLua */,
 				4851D11FF22DECA849CB0054 /* ofxStateMachine */,
 				1F293A20D2B096D59C4F24DD /* ofxTween */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		C0A1A387ACE2CCC82594EE2B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				01583B1C45263611229CC257 /* ofxFileWatcher.cpp */,
+				0FA394AAC7CF14ED67721B0D /* ofxFileWatcher.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		C3F3DBAACD1D6E746A59003B /* ofxFileWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1A387ACE2CCC82594EE2B /* src */,
+			);
+			name = ofxFileWatcher;
 			sourceTree = "<group>";
 		};
 		E4328144138ABC890047C5CB /* Products */ = {
@@ -278,8 +514,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				A8CB84221ED2D34F004B69D2 /* mainScene.cpp */,
-				A8CB84231ED2D34F004B69D2 /* mainScene.h */,
+				6F7BB2BE09EBAA250FCFD7D0 /* mainScene.cpp */,
+				C8EB54F9F22E41995519F404 /* mainScene.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -291,6 +527,26 @@
 				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
 			);
 			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		F1A240160281F5626FEEF82B /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				39390FCFCB868C49F0C78CB5 /* lua */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		F1F6E70C786CB409937E7F60 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				05EA4C5EAFF080E1443C5D23 /* bindings */,
+				DC94311C7CEBBF025EAB0087 /* ofxLua.cpp */,
+				654D9D3FD3248EFA16D6DDFB /* ofxLua.h */,
+				9BCCBA18FA85C5A2A68DC1E5 /* ofxLuaFileWriter.cpp */,
+				E6197C6C6F1FCEB4F3565E7A /* ofxLuaFileWriter.h */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,15 +638,53 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				DAF466631BFD7B4CFB90529F /* mainScene.cpp in Sources */,
+				2C60409D2AA1F54C424C29F2 /* ofxEasingFunc.cpp in Sources */,
+				803F5255E31297F5E51DAFED /* ofxFileWatcher.cpp in Sources */,
 				856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */,
 				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
 				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
 				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
 				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
 				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
-				A8CB84241ED2D34F004B69D2 /* mainScene.cpp in Sources */,
 				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,
 				1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */,
+				2DA82460994281E4C819ED5D /* ofxLuaBindings.cpp in Sources */,
+				CB6DAEA8EE562CFFA503375D /* ofxLua.cpp in Sources */,
+				2991D66A82B2AF8F0DF2BBFD /* ofxLuaFileWriter.cpp in Sources */,
+				4B6798D99BBE9A4429BCD053 /* lapi.c in Sources */,
+				10497A206B4FE11B14A81B2C /* lauxlib.c in Sources */,
+				2B43CA2C2B2102B98853E585 /* lbaselib.c in Sources */,
+				ADEF9A4797FFD7EE6BE4E1D7 /* lbitlib.c in Sources */,
+				CEAB7FF44CA3A33DB36A49C5 /* lcode.c in Sources */,
+				64D548E14B9CF3F3222F6CEE /* lcorolib.c in Sources */,
+				16A28D418065E3E07859F565 /* lctype.c in Sources */,
+				08005D62107F95B9E29F6258 /* ldblib.c in Sources */,
+				CD9DCEF4F64E0D6EB0CB7F7D /* ldebug.c in Sources */,
+				792D9903388D026B87DE63D5 /* ldo.c in Sources */,
+				A91B393E99FC3079CD08B174 /* ldump.c in Sources */,
+				02E27B38F17BEF76FF522D42 /* lfunc.c in Sources */,
+				A500B9161420CD9E9F7DDB39 /* lgc.c in Sources */,
+				AAA4E1BE9B2164E1642CC5C6 /* linit.c in Sources */,
+				D29276FE4E80D1ADA21FA5CC /* liolib.c in Sources */,
+				2A1E8DDFAC0050E914B898E0 /* llex.c in Sources */,
+				EFFEE86E935F20BE80B1076C /* lmathlib.c in Sources */,
+				8C63119EB0D1E9E31D9B226C /* lmem.c in Sources */,
+				8A939BF918ABF4857690F42F /* loadlib.c in Sources */,
+				0FD2865C5D8A0BFE69E95547 /* lobject.c in Sources */,
+				2CEA5A91F769BB162C8D046A /* lopcodes.c in Sources */,
+				0699C1CEAB1C5BB0A5D62A33 /* loslib.c in Sources */,
+				F7513467F92F7AF3DAD30251 /* lparser.c in Sources */,
+				50910FB3A58F53BC16FAE224 /* lstate.c in Sources */,
+				B31C96361B8DC4B6AAF564B4 /* lstring.c in Sources */,
+				143D5E9F06D51CC05B7F784B /* lstrlib.c in Sources */,
+				39BD2D99826301E9CE4711A3 /* ltable.c in Sources */,
+				CBAA7E526D0702B85FE6C904 /* ltablib.c in Sources */,
+				831B7F0AB029001B586D0B93 /* ltm.c in Sources */,
+				35FC7D61E8DCE5721FF3F371 /* lundump.c in Sources */,
+				9008DBA5C88FEF0B162B7230 /* lutf8lib.c in Sources */,
+				A9F56084DF3D0538D788C159 /* lvm.c in Sources */,
+				64512EE0A57FFC207D21B968 /* lzio.c in Sources */,
 				168C43F69AF6A8042EA0B13F /* easing_terms_of_use.html in Sources */,
 				9266028E1AECBB027ABF64D8 /* ofxEasing.cpp in Sources */,
 				5E0DBDE5736DEB3A5886B3F1 /* ofxEasingBack.cpp in Sources */,
@@ -441,13 +735,23 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxEasingFunc/src,
+					../../../addons/ofxFileWatcher/src,
 					../../../addons/ofxGui/src,
+					../../../addons/ofxLua/libs,
+					../../../addons/ofxLua/libs/lua,
+					../../../addons/ofxLua/src,
+					../../../addons/ofxLua/src/bindings,
+					../../../addons/ofxLua/src/bindings/desktop,
+					../../../addons/ofxLua/src/bindings/ios,
+					../../../addons/ofxLua/src/bindings/linuxarm,
 					../../../addons/ofxStateMachine/src,
 					../../../addons/ofxTween/src,
 					../../../addons/ofxTween/src/Easings,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DLUA_USE_MACOSX";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
@@ -479,12 +783,22 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxEasingFunc/src,
+					../../../addons/ofxFileWatcher/src,
 					../../../addons/ofxGui/src,
+					../../../addons/ofxLua/libs,
+					../../../addons/ofxLua/libs/lua,
+					../../../addons/ofxLua/src,
+					../../../addons/ofxLua/src/bindings,
+					../../../addons/ofxLua/src/bindings/desktop,
+					../../../addons/ofxLua/src/bindings/ios,
+					../../../addons/ofxLua/src/bindings/linuxarm,
 					../../../addons/ofxStateMachine/src,
 					../../../addons/ofxTween/src,
 					../../../addons/ofxTween/src/Easings,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "-DLUA_USE_MACOSX";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
@@ -510,7 +824,16 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxEasingFunc/src,
+					../../../addons/ofxFileWatcher/src,
 					../../../addons/ofxGui/src,
+					../../../addons/ofxLua/libs,
+					../../../addons/ofxLua/libs/lua,
+					../../../addons/ofxLua/src,
+					../../../addons/ofxLua/src/bindings,
+					../../../addons/ofxLua/src/bindings/desktop,
+					../../../addons/ofxLua/src/bindings/ios,
+					../../../addons/ofxLua/src/bindings/linuxarm,
 					../../../addons/ofxStateMachine/src,
 					../../../addons/ofxTween/src,
 					../../../addons/ofxTween/src/Easings,
@@ -520,6 +843,7 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DLUA_USE_MACOSX";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
 			};
@@ -541,7 +865,16 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxEasingFunc/src,
+					../../../addons/ofxFileWatcher/src,
 					../../../addons/ofxGui/src,
+					../../../addons/ofxLua/libs,
+					../../../addons/ofxLua/libs/lua,
+					../../../addons/ofxLua/src,
+					../../../addons/ofxLua/src/bindings,
+					../../../addons/ofxLua/src/bindings/desktop,
+					../../../addons/ofxLua/src/bindings/ios,
+					../../../addons/ofxLua/src/bindings/linuxarm,
 					../../../addons/ofxStateMachine/src,
 					../../../addons/ofxTween/src,
 					../../../addons/ofxTween/src/Easings,
@@ -551,6 +884,7 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DLUA_USE_MACOSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;

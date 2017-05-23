@@ -1,3 +1,6 @@
+ofxEasingFunc
+ofxFileWatcher
 ofxGui
+ofxLua
 ofxStateMachine
 ofxTween
